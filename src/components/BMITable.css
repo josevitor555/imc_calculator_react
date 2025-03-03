@@ -9,13 +9,13 @@
 
 #bmi-info {
     font-size: 16px;
-    color: #ccc;
+    color: #1d1d1d;
     margin-bottom: .8rem;
 }
 
 #result-container h3 {
     margin-top: 1rem;
-    color: #dfdfdf;
+    color: #1d1d1d;
     align-self: flex-start;
 }
 
@@ -27,13 +27,14 @@
 #bmi-table {
     margin: 1.5rem 0;
     font-size: 14px;
-    color: #fafafa;
+    color: #1d1d1d;
 }
 
 .table-header {
     font-weight: semi-bold;
     font-size: 16px;
-    color: #ccc;
+    color: #1d1d1d;
+    font-weight: bold;
 }
 
 .table-header, .table-data {
@@ -41,7 +42,7 @@
     justify-content: space-between;
     margin-bottom: .8rem;
     paddin-bottom: .8rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #1d1d1d;
 }
 
 .table-header h4, .table-data p {

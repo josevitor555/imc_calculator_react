@@ -1,20 +1,37 @@
 import React from 'react'
 
-import Button from './Button'
+// import Button from './Button'
+
+
+import {Button} from "@/components/ui/button"
 
 import "./BMITable.css"
 
-const BMITable = ({ data, bmi, info, infoClass, resetCalc }) => {
+interface DataItem {
+  classification: string;
+  info: string;
+  obesity: string;
+}
+
+interface BMITableProps {
+  data: DataItem[];
+  bmi: number;
+  info: string;
+  infoClass: string;
+  resetCalc: () => void;
+}
+
+const BMITable: React.FC<BMITableProps> = ({ data, bmi, info, infoClass, resetCalc }) => {
   return (
     <div id='result-container'>
-      <p id='bmi-number' className='text-gray-50'>
+      <p id='bmi-number'>
         Your BMI: <span className={infoClass}> {bmi} </span>
       </p>
       <p id="bmi-info">
         Your Current Situation - <span className={infoClass}> {info} </span>
       </p>
 
-      <h3> Check the classifications </h3>
+      <h3 className='text-base'> Check the classifications </h3>
 
       <div id="bmi-table">
         <div className="table-header">
@@ -32,9 +49,9 @@ const BMITable = ({ data, bmi, info, infoClass, resetCalc }) => {
         ))}
       </div>
 
-      <Button id="back-btn" text="Back" action={resetCalc} />
+      <Button className="cursor-pointer" id="back-btn" onClick={resetCalc}> Back </Button>
     </div>
   )
 }
 
-export default BMITable
+export default BMITable;

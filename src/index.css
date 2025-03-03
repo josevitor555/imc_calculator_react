@@ -15,21 +15,5 @@ body {
     align-items: center;
     min-height: 100vh;
     color: #1d1d1d;
-    /* background-image: linear-gradient(
-        0deg,
-        hsl(50deg 69% 91%) 0%,
-        hsl(50deg 64% 90%) 4%,
-        hsl(51deg 60% 89%) 9%,
-        hsl(51deg 57% 88%) 16%,
-        hsl(51deg 55% 86%) 25%,
-        hsl(51deg 52% 85%) 41%,
-        hsl(51deg 51% 84%) 67%,
-        hsl(51deg 54% 86%) 81%,
-        hsl(51deg 58% 87%) 88%,
-        hsl(50deg 63% 89%) 93%,
-        hsl(50deg 69% 91%) 96%,
-        hsl(50deg 79% 92%) 98%,
-        hsl(50deg 94% 94%) 100%
-    ); */
-    background: #212121;
+    background: #fafafa;
 }
