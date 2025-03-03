@@ -40,23 +40,3 @@
     margin-top: 1rem;
 }
 
-.action-control button {
-    text-transform: uppercase;
-    padding: .70rem 1.5rem;
-    background: transparent;
-    color: #fafafa;
-    border: none;
-    cursor: pointer;
-    opacity: 0.9;
-    flex: 1;
-}
-
-.action-control button#clear-btn {
-    background: #fafafa;
-    color: #1d1d1d;
-    border-radius: 12px;
-}
-
-.action-control button:hover {
-    opacity: 1;
-}

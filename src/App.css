@@ -1,5 +1,5 @@
 .container {
-    min-width: 400px;
+    min-width: 500px;
     min-height: 400px;
     background: rgba( 255, 255, 255, 0 );
     backdrop-filter: blur( 2.5px );

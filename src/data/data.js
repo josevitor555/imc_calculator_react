@@ -3,42 +3,40 @@ export const data = [
         min: 0,
         max: 18.4,
         classification: "Less than 18.5",
-        info: "Slim",
-        infoclass: "medium"
-    },
+        info: "Thinness",
+        obesity: "0",
+        infoClass: "medium",
+        },
     {
         min: 18.5,
         max: 24.9,
         classification: "Between 18.5 and 24.9",
-        info: "Normal Weight",
-        infoclass: "good"
+        info: "Normal",
+        obesity: "0",
+        infoClass: "good",
     },
     {
         min: 25,
         max: 29.9,
-        classification: "Between 25 and 29.9",
+        classification: "Between 25.0 and 29.9",
         info: "Overweight",
-        infoclass: "warning"
+        obesity: "I",
+        infoClass: "low",
     },
     {
         min: 30,
-        max: 34.9,
-        classification: "Between 30 and 34.9",
-        info: "Grade 1 Obesity",
-        infoclass: "danger"
-    },
-    {
-        min: 35,
         max: 39.9,
-        classification: "Between 35 and 39.9",
-        info: "Grade 2 Obesity",
-        infoclass: "danger"
+        classification: "Between 30.0 and 39.9",
+        info: "Obesity",
+        obesity: "II",
+        infoClass: "medium",
     },
     {
         min: 40,
-        max: Infinity,
-        classification: "Greater than 40",
-        info: "Grade 3 Obesity",
-        infoclass: "danger"
-    }
+        max: 99,
+        classification: "Greater than 40.0",
+        info: "Severe obesity",
+        obesity: "III",
+        infoClass: "high",
+    },
 ];
