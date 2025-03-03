@@ -1,9 +1,10 @@
-import React from 'react'
+// import BMICalculator from "./BMICalculator.module.css" -- CSS Module (Its bad)
+import "./BMICalculator.css"
 
 const ImcCalculator = () => {
   return (
-    <div id='imc__calculator'>
-        <h2> Imc Calculator </h2>
+    <div id='bmi__calculator'>
+        <h2 className="text-2xx"> Body Mass Index Calculator </h2>
 
         <form action="" id="imc-form">
             <div className="form-inputs">
@@ -12,14 +13,14 @@ const ImcCalculator = () => {
                     <input type="text" name='height' id='height' placeholder='Your Height Here' />
                 </div>
                 <div className="form-control">
-                    <label htmlFor="wight"> Your wight </label>
-                    <input type="text" name='wight' id='wight' placeholder='Your wight Here' />
+                    <label htmlFor="weight"> Your weight </label>
+                    <input type="text" name="weight" id="weight" placeholder="Your Weight Here" />
                 </div>
             </div>
 
             <div className="action-control">
-                <button> Calculate </button>
-                <button> Clean </button>
+                <button id="calc-btn" text="Calculate"> Calculate </button>
+                <button id="clear-btn" text="Clear"> Clear </button>
             </div>
         </form>
     </div>

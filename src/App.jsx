@@ -1,13 +1,14 @@
 
 import './App.css'
+import './input.css'
 
-import ImcCalculator from './components/ImcCalculator'
+import BMICalculator from './components/BMICalculator'
 
 function App() {
 
   return (
     <div className="container">
-      <ImcCalculator/>
+      <BMICalculator/>
     </div>
   )
 }
